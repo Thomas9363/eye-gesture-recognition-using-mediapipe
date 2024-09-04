@@ -1,14 +1,15 @@
 # eye-gesture-recognition-using-mediapipe
 ## **hardware and software:**
 laptop 16GB Surface Pro with Windows 11, Anaconda and PyCharm. Other modules are TensorFlow 2.14, OpenCV 4.8.1, MediaPipe 0.10.8, NumPy 1.26.4, and Jupyter Notebook.
+
 Raspberry Pi 4GB Ram with Debian 12 Bookworm OS. Other modules are TensorFlow 2.16.1, OpenCV 4.9.0, MediaPipe 0.10.9, and NumPy 1.26.4.
 
-**Note:**
+## **Note:**
 If you have no robotic eyes, you can run computer simulation ***eye_control_ball.py*** or ***iris_detect_tflite_ball.py***.
 If you have a pair of robotic eyes, you can run eye_control_servo.py or iris_detect_tflite_servo.py.
 The training data ‘iris_gesture_data.csv’ is generated using my eyes. If you find not accurate, you may want to generate your own data.
 
-**Files:**
+## **Files:**
 eye_control_ball.py – initial attempt, moving a ball on screen
 eye_control_servo.py – initial attempt, control robotic eyes
 iris_creat_csv.py – generate training data
@@ -21,12 +22,12 @@ iris_image.png – required image in simulation
 iris_detect_tflite_ball.py – inference script in computer simulation
 iris_detect_tflite_servo.py – inference script used on Pi to control eyes
 
-**Procedures:**
+## **Procedures:**
 The detailed instruction is available at my instructables.
 
 To begin the training, you set up classes for your eye movements from 0 to 9 and associated name. You need to remember what each number represents, as they will be used in the detection scripts.
 
-- **Data Collection**
+- ### **Data Collection**
 The script is ‘iris_creat_csv.py’. It uses MediaPipe face to detect and extract face landmarks in video frames. You position your face in front of the camera at slightly different angles. When ready, pressing keyboard keys 0 to 9, the x and y coordinates of the landmarks in the eye region are sorted in ‘iris_gesture_data.csv’.
 
 - **Model Training**
