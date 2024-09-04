@@ -1,4 +1,5 @@
 # eye-gesture-recognition-using-mediapipe
+<img src="/introduction.GIF" alt="prototype" height="200">
 ## **hardware and software:**
 laptop 16GB Surface Pro with Windows 11, Anaconda and PyCharm. Other modules are TensorFlow 2.14, OpenCV 4.8.1, MediaPipe 0.10.8, NumPy 1.26.4, and Jupyter Notebook.
 
