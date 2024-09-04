@@ -46,4 +46,4 @@ To begin the training, you set up classes for your eye movements from 0 to 9 and
 <img src="/simulation.GIF" alt="prototype" height="300">
 
 ## **License:**
-Codes are under Apache v2 license.
+Codes are under [Apache v2 license][the instructions](https://coral.ai/docs/accelerator/get-started/#requirements).
