@@ -1,5 +1,5 @@
 # eye-gesture-recognition-using-mediapipe
-**hardware and software:**
+## **hardware and software:**
 laptop 16GB Surface Pro with Windows 11, Anaconda and PyCharm. Other modules are TensorFlow 2.14, OpenCV 4.8.1, MediaPipe 0.10.8, NumPy 1.26.4, and Jupyter Notebook.
 Raspberry Pi 4GB Ram with Debian 12 Bookworm OS. Other modules are TensorFlow 2.16.1, OpenCV 4.9.0, MediaPipe 0.10.9, and NumPy 1.26.4.
 
@@ -26,11 +26,11 @@ The detailed instruction is available at my instructables.
 
 To begin the training, you set up classes for your eye movements from 0 to 9 and associated name. You need to remember what each number represents, as they will be used in the detection scripts.
 
-- Data Collection
+- **Data Collection**
 The script is ‘iris_creat_csv.py’. It uses MediaPipe face to detect and extract face landmarks in video frames. You position your face in front of the camera at slightly different angles. When ready, pressing keyboard keys 0 to 9, the x and y coordinates of the landmarks in the eye region are sorted in ‘iris_gesture_data.csv’.
 
-- Model Training
+- **Model Training**
 Run Jupyter Notebook in PyCharm, select 'iris_train.ipynb’ and run all. The ‘iris_gesture_model.tflite’ is the trained model that can be deployed on either Windows OS or a Raspberry Pi.
 
-- Model Deployment
+- **Model Deployment**
 There are two detection scripts. The script ‘iris_detect_tflite_ball.py’ uses a graphical interface to test the accuracy of the data on laptop. This script displays a pair of eyes on the screen that follow the movement of your eyes. The script ‘iris_detect_tflite_servo.py’ is used to control the robotic eyes.
