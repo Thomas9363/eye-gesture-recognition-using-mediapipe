@@ -47,3 +47,5 @@ To begin the training, you set up classes for your eye movements from 0 to 9 and
 
 ## **License:**
 Codes are under [Apache v2 license](https://github.com/Thomas9363/eye-gesture-recognition-using-mediapipe/blob/main/LICENSE).
+
+The detailed instructions are at [my instructables](https://www.instructables.com/Control-Robotic-Eyes-With-My-Eyes-Using-AI-and-Dee/)
