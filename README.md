@@ -26,7 +26,7 @@ The detailed instruction is available at my instructables.
 
 To begin the training, you set up classes for your eye movements from 0 to 9 and associated name. You need to remember what each number represents, as they will be used in the detection scripts.
 
--Data Collection
+- Data Collection
 The script is ‘iris_creat_csv.py’. It uses MediaPipe face to detect and extract face landmarks in video frames. You position your face in front of the camera at slightly different angles. When ready, pressing keyboard keys 0 to 9, the x and y coordinates of the landmarks in the eye region are sorted in ‘iris_gesture_data.csv’.
 
 Model Training
