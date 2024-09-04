@@ -4,7 +4,7 @@ laptop 16GB Surface Pro with Windows 11, Anaconda and PyCharm. Other modules are
 Raspberry Pi 4GB Ram with Debian 12 Bookworm OS. Other modules are TensorFlow 2.16.1, OpenCV 4.9.0, MediaPipe 0.10.9, and NumPy 1.26.4.
 
 **Note:**
-If you have no robotic eyes, you can run computer simulation eye_control_ball.py or iris_detect_tflite_ball.py.
+If you have no robotic eyes, you can run computer simulation ***eye_control_ball.py*** or ***iris_detect_tflite_ball.py***.
 If you have a pair of robotic eyes, you can run eye_control_servo.py or iris_detect_tflite_servo.py.
 The training data ‘iris_gesture_data.csv’ is generated using my eyes. If you find not accurate, you may want to generate your own data.
 
