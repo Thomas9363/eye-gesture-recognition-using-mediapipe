@@ -33,10 +33,12 @@ To begin the training, you set up classes for your eye movements from 0 to 9 and
 <img src="/eyeMove.png" alt="prototype" height="200">
 
 - **Data Collection:**
- The script is ‘iris_creat_csv.py’. It uses MediaPipe face to detect and extract face landmarks in video frames. You position your face in front of the camera at slightly different angles. When ready, pressing keyboard keys 0 to 9, the x and y coordinates of the landmarks in the eye region are sorted in ‘iris_gesture_data.csv’.
+ The script is ‘***iris_creat_csv.py***’. It uses MediaPipe face to detect and extract face landmarks in video frames. You position your face in front of the camera at slightly different angles. When ready, pressing keyboard keys 0 to 9, the x and y coordinates of the landmarks in the eye region are sorted in ‘***iris_gesture_data.csv***’.
+
+
 
 - **Model Training:**
- Run Jupyter Notebook in PyCharm, select 'iris_train.ipynb’ and run all. The ‘iris_gesture_model.tflite’ is the trained model that can be deployed on either Windows OS or a Raspberry Pi.
+ Run Jupyter Notebook in PyCharm, select '***iris_train.ipynb***’ and run all. The ‘***iris_gesture_model.tflite***’ is the trained model that can be deployed on either Windows OS or a Raspberry Pi.
 
 - **Model Deployment:**
- There are two detection scripts. The script ‘iris_detect_tflite_ball.py’ uses a graphical interface to test the accuracy of the data on laptop. This script displays a pair of eyes on the screen that follow the movement of your eyes. The script ‘iris_detect_tflite_servo.py’ is used to control the robotic eyes.
+ There are two detection scripts. The script ‘***iris_detect_tflite_ball.py***’ uses a graphical interface to test the accuracy of the data on laptop. This script displays a pair of eyes on the screen that follow the movement of your eyes. The script ‘***iris_detect_tflite_servo.py***’ is used to control the robotic eyes.
