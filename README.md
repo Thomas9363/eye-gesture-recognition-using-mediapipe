@@ -26,7 +26,7 @@ The training data ‘***iris_gesture_data.csv***’ is generated using my eyes. 
 - iris_detect_tflite_servo.py – inference script used on Pi to control eyes
 
 ## **Procedures:**
-The detailed instruction is available at my instructables.
+The link of the detailed instructions is at the bottom.
 
 To begin the training, you set up classes for your eye movements from 0 to 9 and associated name. You need to remember what each number represents, as they will be used in the detection scripts.
 
