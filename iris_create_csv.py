@@ -15,7 +15,7 @@ right_iris_indices = [469, 470, 471, 472, 468]  # Include iris center point 473
 all_eye_indices = left_eye_indices + left_iris_indices + right_eye_indices + right_iris_indices
 
 # CSV file path
-csv_file_path = 'iris_gesture_dataq.csv'
+csv_file_path = 'iris_gesture_data.csv'
 
 # Initialize the count dictionary
 data_count = {i: 0 for i in range(10)}  # Assuming labels are 0-9
